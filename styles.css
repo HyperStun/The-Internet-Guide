@@ -1,0 +1,259 @@
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+#wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1583px;
+}
+
+header {
+    padding: 30px 0px 0px 30px;
+}
+
+article {
+    font-family: Source Sans Pro, sans-serif;
+}
+
+#Title {
+    background-color: #191919;
+    color: #A5FFEE;
+    text-align: center;
+}
+
+#Title h1 {
+    font-size: 50px;
+    padding-top: 75px;
+}
+
+#Title h2 {
+    font-size: 35px;
+    margin-top: -25px;
+}
+
+#Title p {
+    color: white;
+    font-size: 20px;
+    margin: 30px 400px 10px 400px;
+    line-height: 2;
+}
+
+#Title img {
+    padding: 100px 0px 100px 0px;
+}
+
+#Backup {
+    padding: 150px 80px 150px 80px;
+    color: #A5FFEE;
+}
+
+#Backup .img {
+    float: left;
+    padding-right: 100px;
+}
+
+#Backup .img div {
+    background-color: #191919;
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+
+#Backup .img img {
+    vertical-align: top;
+    padding-right: 75px;
+    padding-bottom: 150px;
+    position: absolute;
+    top: 1300px;
+    left: 110px;
+}
+
+#Backup .txt {
+    padding-top: 50px;
+}
+
+#Backup .txt h2 {
+    font-size: 35px;
+}
+
+#Backup .txt p {
+    color: white;
+    margin-right: 250px;
+    font-size: 20px;
+    line-height: 2;
+}
+
+#Log-in {
+    color: white;
+    background-color: #191919;
+    padding: 100px;
+    font-size: 17px;
+}
+
+#Log-in .wrapper {
+    margin-left: 5px;
+    background-color: black;
+    float: left;
+    width: 650px;
+    height: 700px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#Log-in .wrapper div {
+    margin: 0px 50px 0px 50px;
+    padding-top: 100px;
+    line-height: 2;
+}
+
+#Log-in .wrapper div h2 {
+    color: #A5FFEE;
+    font-size: 35px;
+}
+
+#Log-in .wrapper div ul {
+    margin: 0px;
+}
+
+#Software {
+    color: white;
+    background-color: black;
+    padding: 100px;
+    font-size: 17px;
+}
+
+#Software .wrapper {
+    position: relative;
+    color: white;
+}
+
+#Software .wrapper img {
+    padding-left: 200px;
+}
+
+#Software .wrapper .txt {
+    background-color: #191919;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#Software .wrapper .txt h2 {
+    color: #A5FFEE;
+    font-size: 35px;
+    margin: 0px 50px 0px 50px;
+}
+
+#Software .wrapper .txt p {
+    font-size: 17px;
+    line-height: 2;
+    margin: 0px 50px 0px 50px;
+}
+
+#Password {
+    color: white;
+    background-color: #191919;
+    padding: 100px 175px 915px 175px;
+    font-size: 17px;
+}
+
+#Password img {
+    float: right
+}
+
+#Password .wrapper {
+    margin-left: 5px;
+    background-color: black;
+    width: 600px;
+    height: 800px;
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#Password .wrapper .txt {
+    padding-top: 100px;
+    margin: 0px 50px 0px 50px;
+}
+
+#Password .wrapper .txt h2 {
+    color: #A5FFEE;
+    font-size: 35px;
+}
+
+#Password .wrapper .txt p {
+    font-size: 17px;
+    line-height: 2;
+}
+
+#Posting {
+    background-color: black;
+    padding: 100px;
+    color: white;
+    text-align: center;
+}
+
+#Posting img {
+    float: left;
+    padding-right: 100px;
+}
+
+#Posting .txt {
+    padding-top: 75px;
+    padding-left: 100px;
+    margin: 0px 200px 0px 200px;
+}
+
+#Posting .txt h2 {
+    color: #A5FFEE;
+    font-size: 35px;
+}
+
+#Posting .txt p {
+    font-size: 17px;
+    line-height: 2;
+}
+
+footer {
+    text-align: center;
+    padding-top: 30px;
+    clear: both;
+}
+
+footer p {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+#Icons {
+    padding: 0px 5px 0px 5px;
+    text-decoration: none;
+}
+
+.button {
+  border: none;
+  color: #A5FFEE;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.2s;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: black;
+  color: #A5FFEE;
+  border: 2px solid #A5FFEE;
+}
+
+.button:hover {
+  background-color: #A5FFEE;
+  color: black;
+}
